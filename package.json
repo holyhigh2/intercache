@@ -1,9 +1,9 @@
 {
   "name": "intercache",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lightweight cache interface can make your data-getters cacheable in a non-intrusive way",
   "main": "index.js",
-  "module": "index.js",
+  "module": "index.esm.js",
   "types": "index.d.ts",
   "author": "holyhigh2",
   "license": "MIT",
@@ -23,7 +23,8 @@
     "build": "rollup --config --bundleConfigAsCjs"
   },
   "peerDependencies": {
-    "myfx": ">1.0.0"
+    "myfx": ">1.0.0",
+    "mystores":">0.1"
   },
   "devDependencies": {
     "@rollup/plugin-json": "^6.0.0",
