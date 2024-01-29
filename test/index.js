@@ -1,5 +1,5 @@
 /**
-   * intercache v0.1.1
+   * intercache v0.1.2
    * A lightweight cache interface can make your data-getters cacheable in a non-intrusive way
    * @holyhigh2
    * https://github.com/holyhigh2/intercache
